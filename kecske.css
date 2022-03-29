@@ -1,0 +1,59 @@
+main{
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 270px auto 270px;
+  grid-template-areas:
+       "h h h"
+    "as ar as1"
+      "f f f";
+  align-items: start;
+}
+
+h1{
+    text-align: center;
+}
+header{
+    text-align: center;
+    border: 1px solid black;
+    grid-area: h;
+    margin: 20px;
+}
+.bal{
+    grid-area: as;
+    border: 1px solid black;
+    margin: 20px;
+}
+.jobb{
+    grid-area: as1;
+    border: 1px solid black;
+    margin: 20px;
+}
+aside{
+    border: 1px solid black;
+    height: 600px;
+    margin: 20px;
+}
+article{
+    border: 1px solid black;
+    grid-area: ar;
+    background-color: #fff3cc;
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 100px;
+}
+footer{
+    grid-area: f;
+    border: 2px solid black;
+}
+footer p{
+    background-color: #fff3cc;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+#kep1 {
+    border-radius: 8px;
+    max-width: 150%;
+    height: 100px;
+    width:100px;
+}
